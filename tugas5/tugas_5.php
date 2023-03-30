@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +19,7 @@
     <h1>Buku Tamu</h1>
     <p>komentar dan saran  anda sangat kami butuhkan untuk meningkatkan kualitas situs kami</p>
     <hr>
-    <form action="" method="post">
+    <form action="insert.php"  method="post">
         <div class="card card-bordered col-6">
             <div class="card-inner p-5">
                 <div class="row">
@@ -39,8 +41,8 @@
                     </div>
                 </div>
                 <div class="d-flex align-items-center mt-4">
-                    <button class="btn btn-primary" type="submit" style="margin-right:10px;">Kirim</button>
-                    <a href="#" class="btn btn-secondary">Batal</a>
+                    <input type="submit" class="btn btn-primary" value="Kirim" style="margin-right:10px;">
+                    <a href="list_komentar.php" class="btn btn-secondary">Batal</a>
                 </div>
             </div>
         </div>
